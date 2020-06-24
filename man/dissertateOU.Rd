@@ -14,7 +14,9 @@ dissertateOU(..., highlight = NULL, citation_package = "none")
 "zenburn", and "haddock". Pass \code{NULL} to prevent syntax highlighting.}
 
 \item{citation_package}{The LaTeX package to process citations, \code{natbib}
-or \code{biblatex}. Use \code{none} if neither package is to be used.}
+or \code{biblatex}. Use \code{default} if neither package is to be used,
+which means citations will be processed via the command
+\command{pandoc-citeproc}.}
 }
 \value{
 R Markdown output format to pass to
