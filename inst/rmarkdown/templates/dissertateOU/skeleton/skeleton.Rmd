@@ -6,6 +6,7 @@ year: "2020"
 degree: "Degree"
 field: "Field"
 academicunit: "Your Academic Unit"
+location: "Oklahoma City, OK"
 thesis: true
 chair: "Chair Person"
 committee2: "Committee Member 2"
