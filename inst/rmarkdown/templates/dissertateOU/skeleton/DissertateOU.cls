@@ -1,17 +1,17 @@
 % ---------------------------------------------------------------------------
 %  @LaTeX-class-file{
-%     filename        = "DissertateUSU.cls",
+%     filename        = "DissertateOU.cls",
 %     version         = "1.0",
-%     date            = "01 July 2017",
+%     date            = "01 June 2020",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, Dissertate",
 %     note            = "Based on 'Dissertate' by Jordan Suchow,
 %                        For support, email 'tyson.barrett@usu.edu',
-%     docstring       = "Class for a dissertation at Utah State University."
+%     docstring       = "Class for a dissertation at Oklahoma University."
 % ---------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{DissertateUSU}[2017/07/01 v1.0 DissertateUSU Class]
+\ProvidesClass{DissertateOU}[2017/07/01 v1.0 DissertateOUClass]
 \LoadClass[12pt, oneside, letterpaper]{book}
 
 %%%%%%%%%%%%%%%%%
