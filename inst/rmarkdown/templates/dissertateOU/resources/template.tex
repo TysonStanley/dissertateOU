@@ -102,9 +102,11 @@ $if(thesis)$
 
 	\MakeUppercase{University of Oklahoma} \\
 	\MakeUppercase{Graduate College}
-	\vspace{30pt}
+	\vspace{120pt}
 
 	\MakeUppercase{$title$}
+
+	\vspace{120pt}
 
 	\MakeUppercase{A thesis} \\
 	\MakeUppercase{submitted to the graduate faculty}
@@ -115,7 +117,7 @@ $if(thesis)$
 	Degree of\\
 	\MakeUppercase{$degree$}
 
-	\vspace{50pt}
+	\vspace{120pt}
 
 	By
 
@@ -130,25 +132,25 @@ $if(thesis)$
 	\MakeUppercase{A dissertation approved for the} \\
 	\MakeUppercase{$academicunit$}
 
-	\vspace{40pt}
+	\vspace{150pt}
 
 	\MakeUppercase{By the committee consisting of}
 
-	\doublespaced
-
-	\vspace{30pt}
+	\vspace{150pt}
 
   \end{center}
 
-	\begin{right}
+	\begin{flushright}
+	\doublespaced
+
   $chair$ \\
   $committee2$ \\
   $committee3$ \\
   $committee4$ \\
   $committee5$ \\
 
-	\end{right}
-
+	\end{flushright}
+	\clearpage
 }
 $else$
 \renewcommand{\maketitle}{
@@ -159,9 +161,11 @@ $else$
 
 	\MakeUppercase{University of Oklahoma}\\
 	\MakeUppercase{Graduate College}
-	\vspace{30pt}
+	\vspace{120pt}
 
 	\MakeUppercase{$title$}
+
+	\vspace{120pt}
 
 	\MakeUppercase{A dissertation} \\
 	\MakeUppercase{submitted to the graduate faculty}
@@ -171,7 +175,7 @@ $else$
 	Degree of\\
 	\MakeUppercase{$degree$}
 
-	\vspace{50pt}
+	\vspace{120pt}
 
 	By
 
@@ -186,22 +190,23 @@ $else$
 	\MakeUppercase{A dissertation approved for the} \\
 	\MakeUppercase{$academicunit$}
 
-	\vspace{40pt}
+	\vspace{150pt}
 
 	\MakeUppercase{By the committee consisting of}
 
+	\vspace{150pt}
+
+	\begin{flushright}\
 	\doublespaced
 
-	\vspace{30pt}
-
-	\begin{right}
   $chair$ \\
   $committee2$ \\
   $committee3$ \\
   $committee4$ \\
   $committee5$ \\
 
-	\end{right}
+	\end{flushright}
+	\clearpage
 
 }
 $endif$
@@ -236,9 +241,7 @@ $endif$
 	\vspace*{\fill}
   \begin{center}
 	\doublespacing
-	Copyright \hspace{3pt}
-	  \scshape \small \copyright  \hspace{3pt}
-	  $author$ \hspace{3pt} $year$ \\
+	 \scshape \small \copyright  \hspace{3pt} Copyright by $author$ \hspace{3pt} $year$ \\
 	All Rights Reserved
   \end{center}
 }
