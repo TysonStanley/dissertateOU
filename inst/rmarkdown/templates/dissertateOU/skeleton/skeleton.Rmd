@@ -1,7 +1,7 @@
 ---
 title: "Dissertating for Oklahoma"
 author: "You"
-geometry: [top=1in, bottom=1in, right=1in, left=1.5in]
+geometry: [top=1in, bottom=1in, right=1in, left=1in]
 year: "2020"
 degree: "Degree"
 field: "Field"
