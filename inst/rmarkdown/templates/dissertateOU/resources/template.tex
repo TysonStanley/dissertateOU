@@ -98,6 +98,12 @@ $endif$
 % \renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Change title of toc to TABLE OF CONTENTS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{\hfill TABLE OF CONTENTS\hfill\hfill}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% LAYOUT: Title Page - info filled above    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -122,7 +128,7 @@ $if(thesis)$
 	\doublespaced
 
 	in partial fulfillment of the requirements for the \\
-	Degree of\\
+	degree of\\
 	\MakeUppercase{$degree$}
 
 	\vspace{120pt}
@@ -135,32 +141,37 @@ $if(thesis)$
 	$year$
 
 	\newpage
-
+	
+  \begin{doublespace}
   \MakeUppercase{$title$}\\
-	\MakeUppercase{A thesis approved for the} \\
-	\MakeUppercase{$academicunit$}
-
-	\vspace{150pt}
-
-	\MakeUppercase{By the committee consisting of}
-
-	\vspace{150pt}
+  \end{doublespace}
 
   \end{center}
 
-	\begin{flushright}
-	\doublespaced
+  \begin{flushright}
+	
+  \noindent\begin{tabular}{ll}
+  \phantom{\makebox[2.5in]{\hrulefill}}
+  \\
+  \MakeUppercase{Approved by}\\[8ex]
 
-  $chair$
+  \makebox[2.5in]{\hrulefill}
+  \\
+  $chair$\\[8ex]
 
-  $committee2$
+  \makebox[2.5in]{\hrulefill}
+  \\
+  $committee2$\\[8ex]
 
+  \makebox[2.5in]{\hrulefill}
+  \\
   $committee3$
 
   $committee4$
 
   $committee5$
 
+	\end{tabular}
 	\end{flushright}
 	\clearpage
 }
@@ -254,12 +265,13 @@ $endif$
 %% LAYOUT: Copy Right - info filled above    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\copyrightpage}{
-	\vspace*{\fill}
+  \vspace*{\fill}
   \begin{center}
 	\doublespacing
-	 \scshape \small \copyright  \hspace{3pt} Copyright by $author$ \hspace{3pt} $year$ \\
+	 \scshape \small \copyright  \hspace{3pt} Copyright\\ by $author$\\ $year$ \\
 	All Rights Reserved
   \end{center}
+  \vspace*{\fill}
 }
 
 \normalem
@@ -270,7 +282,8 @@ $endif$
 
 \maketitle
 
-\pagenumbering{roman}
+% Changed from roman to arabic
+\pagenumbering{arabic}
 \pagestyle{empty}
 \copyrightpage
 
