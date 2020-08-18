@@ -29,14 +29,14 @@ knitr::opts_chunk$set(fig.path = 'figures/',
                       message = FALSE)
 ```
 
+\pagenumbering{arabic}
 
 <!-- Abstract -->
 \newpage
 \pagestyle{plain} <!-- can use \pagestyle{fancy} for a horizontal line in header -->
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \chapter*{ABSTRACT}
-\addcontentsline{toc}{section}{Abstract}
 
 \abstracttitle
 \doublespacing
@@ -48,10 +48,9 @@ Your abstract words go here. The line below puts the total number of pages at th
 
 <!-- Public Abstract -->
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \chapter*{PUBLIC ABSTRACT}
-\addcontentsline{toc}{section}{Public Abstract}
 \doublespacing
 
 Your publicly abstracted words go here.
@@ -59,8 +58,8 @@ Your publicly abstracted words go here.
 
 <!-- Dedication -->
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \chapter*{DEDICATION}
 \addcontentsline{toc}{section}{Dedication}
 
@@ -69,38 +68,35 @@ Dedicate it.
 
 <!-- Acknowledgments -->
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \chapter*{ACKNOWLEDGMENTS}
-\addcontentsline{toc}{section}{Acknowledgments}
 
 Acknowledge those acknowledgable individuals and things.
 
 
 <!-- Front Matter -->
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \tableofcontents
 
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \listoftables
 
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 \listoffigures
 
-
 \newpage
-\pagenumbering{arabic}
 
 <!-- Chapter 1 -->
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter{INTRODUCTION}
 
@@ -111,8 +107,8 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 2 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter{Chapter 2's Title}
 
@@ -123,8 +119,8 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 3 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter{Chapter 3's Title}
 
@@ -135,8 +131,8 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 4 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter{Chapter 4's Title}
 
@@ -147,8 +143,8 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 5 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter{Chapter 5's Title}
 
@@ -159,8 +155,8 @@ Acknowledge those acknowledgable individuals and things.
 <!-- References -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{\thepage}
-\fancyfoot[C]{}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
 
 \chapter*{REFERENCES}
 

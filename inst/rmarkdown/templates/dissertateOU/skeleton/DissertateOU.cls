@@ -70,12 +70,12 @@
 \setlength{\headheight}{25pt}
 \RequirePackage{titling}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Page number in upper right corner %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Page number centered at bottom of page %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \fancypagestyle{plain}{%
 \fancyhf{} % clear all header and footer fields
-\fancyhead[R]{\thepage} % except the right
+\fancyfoot[C]{\thepage} % except the bottom
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}}
 
@@ -88,7 +88,7 @@
 \usepackage[titletoc]{appendix}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftchapfont}{\normalsize \normalfont}
-\renewcommand\contentsname{CONTENTS}
+\renewcommand\contentsname{TABLE OF CONTENTS}
 \renewcommand\listfigurename{LIST OF FIGURES}
 \renewcommand\listtablename{LIST OF TABLES}
 \renewcommand{\cftchapafterpnum}{\vspace{10pt}}
