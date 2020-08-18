@@ -162,8 +162,8 @@
 \titleformat{\chapter}[display]
 {\vspace{-60pt}\center}   %% spacing of chapter headings
 {{CHAPTER \thechapter}}
-{0pt}
-{}
+{4ex}
+{\normalsize}
 
 \titleformat{\section}[display]
 {\normalfont\normalsize\bfseries}
