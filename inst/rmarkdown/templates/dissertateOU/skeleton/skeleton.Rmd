@@ -77,17 +77,17 @@ Acknowledge those acknowledgable individuals and things.
 
 <!-- Front Matter -->
 \newpage
-\fancyhead[R]{}
+\fancyhead[C]{TABLE OF CONTENTS}
 \fancyfoot[C]{\thepage}
 \tableofcontents
 
 \newpage
-\fancyhead[R]{}
+\fancyhead[C]{LIST OF TABLES}
 \fancyfoot[C]{\thepage}
 \listoftables
 
 \newpage
-\fancyhead[R]{}
+\fancyhead[C]{LIST OF FIGURES}
 \fancyfoot[C]{\thepage}
 \listoffigures
 
