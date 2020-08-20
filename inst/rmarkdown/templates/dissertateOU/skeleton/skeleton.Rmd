@@ -95,7 +95,7 @@ Acknowledge those acknowledgable individuals and things.
 
 <!-- Chapter 1 -->
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter{INTRODUCTION}
@@ -107,7 +107,7 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 2 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter{Chapter 2's Title}
@@ -119,7 +119,7 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 3 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter{Chapter 3's Title}
@@ -131,7 +131,7 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 4 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter{Chapter 4's Title}
@@ -143,7 +143,7 @@ Acknowledge those acknowledgable individuals and things.
 <!-- Chapter 5 -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter{Chapter 5's Title}
@@ -155,7 +155,7 @@ Acknowledge those acknowledgable individuals and things.
 <!-- References -->
 \FloatBarrier
 \newpage
-\fancyhead[R]{}
+\fancyhead{}
 \fancyfoot[C]{\thepage}
 
 \chapter*{REFERENCES}
