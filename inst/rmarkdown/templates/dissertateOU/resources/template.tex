@@ -109,7 +109,7 @@ $endif$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 $if(thesis)$
 \renewcommand{\maketitle}{
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
 	\vspace*{\fill}
 	\begin{center}
 	\doublespaced
@@ -122,13 +122,16 @@ $if(thesis)$
 
 	\vspace{120pt}
 
-	\MakeUppercase{A thesis} \\
+	\MakeUppercase{A thesis}
+
 	\MakeUppercase{submitted to the graduate faculty}
 
 	\doublespaced
 
-	in partial fulfillment of the requirements for the \\
-	degree of\\
+	in partial fulfillment of the requirements for the
+
+	degree of
+
 	\MakeUppercase{$degree$}
 
 	\vspace{120pt}
@@ -136,14 +139,16 @@ $if(thesis)$
 	By
 
 	\singlespaced
-	\MakeUppercase{$author$} \\
-	$location$ \\
+	\MakeUppercase{$author$}
+
+	$location$
+
 	$year$
 
 	\newpage
 
   \begin{doublespace}
-  \MakeUppercase{$title$}\\
+  \MakeUppercase{$title$}
   \end{doublespace}
 
   \end{center}
@@ -151,21 +156,21 @@ $if(thesis)$
   \begin{flushright}
 
   \noindent\begin{tabular}{ll}
-  \phantom{\makebox[2.5in]{\hrulefill}}
-  \\
-  \MakeUppercase{Approved by}\\[8ex]
+  \phantom{\makebox[2.5in]{\hrulefill}} \\
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $chair$\\[8ex]
+  \MakeUppercase{Approved by} \\ [8ex]
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee2$\\[8ex]
+  \makebox[2.5in]{\hrulefill} \\
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee3$\\[8ex]
+  $chair$ \\ [8ex]
+
+  \makebox[2.5in]{\hrulefill} \\
+
+  $committee2$ \\ [8ex]
+
+  \makebox[2.5in]{\hrulefill} \\
+
+  $committee3$ \\ [8ex]
 
 	\end{tabular}
 	\end{flushright}
@@ -173,12 +178,13 @@ $if(thesis)$
 }
 $else$
 \renewcommand{\maketitle}{
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
 	\vspace*{\fill}
 	\begin{center}
 	\doublespaced
 
-	\MakeUppercase{University of Oklahoma}\\
+	\MakeUppercase{University of Oklahoma}
+
 	\MakeUppercase{Graduate College}
 	\vspace{120pt}
 
@@ -186,12 +192,15 @@ $else$
 
 	\vspace{120pt}
 
-	\MakeUppercase{A dissertation} \\
+	\MakeUppercase{A dissertation}
+
 	\MakeUppercase{submitted to the graduate faculty}
 
 	\doublespaced
-	in partial fulfillment of the requirements for the \\
-	Degree of\\
+	in partial fulfillment of the requirements for the
+
+	degree of
+
 	\MakeUppercase{$degree$}
 
 	\vspace{120pt}
@@ -199,14 +208,18 @@ $else$
 	By
 
 	\singlespaced
-	\MakeUppercase{$author$} \\
-	$location$  \\
+	\MakeUppercase{$author$}
+
+	$location$
+
 	$year$
 
 	\newpage
 
-  \MakeUppercase{$title$}\\
-	\MakeUppercase{A dissertation approved for the} \\
+  \MakeUppercase{$title$}
+
+	\MakeUppercase{A dissertation approved for the}
+
 	\MakeUppercase{$academicunit$}
 
 	\vspace{150pt}
@@ -217,29 +230,29 @@ $else$
 
   \begin{flushright}
   \noindent\begin{tabular}{ll}
-  \phantom{\makebox[2.5in]{\hrulefill}}
-  \\
-  \MakeUppercase{Approved by}\\[8ex]
+  \phantom{\makebox[2.5in]{\hrulefill}} \\
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $chair$\\[8ex]
+  \MakeUppercase{Approved by} \\ [8ex]
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee2$\\[8ex]
+  \makebox[2.5in]{\hrulefill} \\
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee3$\\[8ex]
+  $chair$ \\ [8ex]
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee4$\\[8ex]
+  \makebox[2.5in]{\hrulefill} \\
 
-  \makebox[2.5in]{\hrulefill}
-  \\
-  $committee5$\\[8ex]
+  $committee2$ \\ [8ex]
+
+  \makebox[2.5in]{\hrulefill} \\
+
+  $committee3$ \\ [8ex]
+
+  \makebox[2.5in]{\hrulefill} \\
+
+  $committee4$ \\ [8ex]
+
+  \makebox[2.5in]{\hrulefill} \\
+
+  $committee5$ \\ [8ex]
 
 	\end{tabular}
 	\end{flushright}
@@ -255,18 +268,25 @@ $endif$
 
   \doublespacing
   \begin{center}
-  $title$ \\
+
+  $title$
+
   \vspace{12pt}
-  by \\
+
+  by
+
   \vspace{12pt}
-  $author$ \\
+
+  $author$
   University of Oklahoma, $year$
   \end{center}
 
   \vspace{12pt}
 
   \singlespacing
-  \noindent Major Professor: $chair$ \\
+
+  \noindent Major Professor: $chair$
+
   \noindent Department: $academicunit$
 
   \vspace{12pt}
@@ -279,7 +299,12 @@ $endif$
   \vspace*{\fill}
   \begin{center}
 	\doublespacing
-	 \scshape \small \copyright  \hspace{3pt} Copyright\\ by $author$\\ $year$ \\
+	 \scshape \small \copyright  \hspace{3pt} Copyright
+
+	 by $author$
+
+	 $year$
+
 	All Rights Reserved
   \end{center}
   \vspace*{\fill}
@@ -294,8 +319,8 @@ $endif$
 \maketitle
 
 % Changed from roman to arabic
-\pagenumbering{arabic}
-%\pagestyle{empty}
+% \pagenumbering{arabic}
+% \pagestyle{empty}
 
 \copyrightpage
 
