@@ -12,7 +12,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{DissertateOU}[2017/07/01 v1.0 DissertateOUClass]
-\LoadClass[12pt, oneside, letterpaper]{book}
+\LoadClass[12pt, oneside, letterpaper, openany]{book}
 
 %%%%%%%%%%%%%%%%%
 %%   Options   %%
@@ -73,11 +73,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Page number centered at bottom of page %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Redefine the plain page style
 \fancypagestyle{plain}{%
-\fancyhf{} % clear all header and footer fields
-\fancyfoot[C]{\thepage} % except the bottom
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}}
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0pt}% Line at the footer invisible
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,7 +106,7 @@
     \singlespaced
     % \vskip0pt
     \chapter*{ \begin{center} \textnormal{LIST OF TABLES}  \end{center}}
-    \addcontentsline{toc}{section}{LIST OF TABLES}
+    % \addcontentsline{toc}{section}{LIST OF TABLES}
     % \addcontentsline{toc}{chapter}{\textnormal{LIST OF TABLES}}
     % \addvspace{10pt}
     % \typeout{!! List of Tables...!!}
@@ -131,7 +133,7 @@
     \singlespaced
     % \vskip0pt
     \chapter*{\begin{center} \textnormal{LIST OF FIGURES} \end{center}}
-    \addcontentsline{toc}{section}{LIST OF FIGURES}
+    % \addcontentsline{toc}{section}{LIST OF FIGURES}
     % \addcontentsline{toc}{chapter}{\textnormal{LIST OF FIGURES}}
     % \addvspace{10pt}
     % \typeout{!! List of Figures...!!}
