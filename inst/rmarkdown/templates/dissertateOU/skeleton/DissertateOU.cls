@@ -75,8 +75,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Redefine the plain page style
 \fancypagestyle{plain}{%
-  \fancyhf{}%
-  \fancyfoot[C]{\thepage}%
+  \fancyhead{}%
+  \fancyfoot{}
+  \fancyfoot[CO,CE]{\thepage}%
   \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
   \renewcommand{\footrulewidth}{0pt}% Line at the footer invisible
 }
