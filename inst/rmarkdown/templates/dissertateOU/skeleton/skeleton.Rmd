@@ -29,8 +29,6 @@ knitr::opts_chunk$set(fig.path = 'figures/',
                       message = FALSE)
 ```
 
-\pagenumbering{arabic}
-
 <!-- Abstract -->
 \newpage
 \pagestyle{plain} <!-- can use \pagestyle{fancy} for a horizontal line in header -->
